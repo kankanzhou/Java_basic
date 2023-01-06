@@ -29,4 +29,14 @@ public class Vector3D {
     public double getMagnitude() {
         return Math.pow(x * x + y * y + z * z, 0.5);
     }
+    public String normalize() {
+        if (x == 0 || y == 0 || z == 0) {
+            throw new IllegalStateException("can not be normalize");
+        }
+        double dx = x / this.getMagnitude();
+        double dy = y / this.getMagnitude();
+        double dz = z / this.getMagnitude();
+        return '(' + String.valueOf(dx) + ',' + String.valueOf(dy) + ',' + String.valueOf(dz) + ')';
+    }
+
 }
