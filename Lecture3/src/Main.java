@@ -4,8 +4,12 @@
  */
 public class Main {
     public static void main(String[] args) {
+        Person woman = new Person();
         Person man = new Person("kan", 20);
+        Student wei = new Student();
         man.sayHello();
-        System.out.println("Hello world!");
+        wei.sayHello();
+        wei.sayMyself();
+        wei.sayMyself(20);
     }
 }
