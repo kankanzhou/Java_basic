@@ -7,7 +7,12 @@ package Demo4;
 import Demo4.Phone;
 public class Main {
     public static void main(String[] args) {
-        Phone iphone = new Phone();
+        Phone iphone = getPhone();
         iphone.call();
+    }
+
+    public static Phone getPhone() {
+        Phone one = new Phone();
+        return one;
     }
 }
