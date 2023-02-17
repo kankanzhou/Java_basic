@@ -14,9 +14,9 @@ public class Ios {
         System.out.println("Pls input numbers");
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-        res = Math.max(num1, num2);
+        res = num1 > num2 ? num1 : num2;
         int num3 = sc.nextInt();
-        res = Math.max(res, num3);
+        res = res > num3 ? res : num3;
         System.out.println(res);
     }
 }
