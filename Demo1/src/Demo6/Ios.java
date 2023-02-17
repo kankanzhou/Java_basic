@@ -9,7 +9,14 @@ import java.util.Scanner;
 public class Ios {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //int num = sc.nextInt();
-        System.out.println(sc.next());
+       // int num = sc.nextInt();
+        int res;
+        System.out.println("Pls input numbers");
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        res = Math.max(num1, num2);
+        int num3 = sc.nextInt();
+        res = Math.max(res, num3);
+        System.out.println(res);
     }
 }
