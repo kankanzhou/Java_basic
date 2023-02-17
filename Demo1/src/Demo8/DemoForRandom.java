@@ -10,8 +10,8 @@ import java.util.Scanner;
 public class DemoForRandom {
     public static void main(String[] args) {
         int target = new Random().nextInt(1, 101);
+        Scanner sc = new Scanner(System.in);
         while (true) {
-            Scanner sc = new Scanner(System.in);
             System.out.println("Pls input a number");
             int num = sc.nextInt();
             if (num == target) {
