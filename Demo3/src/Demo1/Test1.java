@@ -19,6 +19,6 @@ public class Test1 {
         System.out.println(s3.equals(s2));
         System.out.println(s1.equals("abc"));
         System.out.println("abc".equals(s2));
-
+        System.out.println("ABC".equalsIgnoreCase(s1));
     }
 }
