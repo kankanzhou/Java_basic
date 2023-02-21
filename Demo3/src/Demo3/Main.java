@@ -7,6 +7,7 @@ package Demo3;
 public class Main {
     public static void main(String[] args) {
         Zi z = new Zi();
-        System.out.println(z.age);
+        System.out.println(z.num);
+        z.method();
     }
 }

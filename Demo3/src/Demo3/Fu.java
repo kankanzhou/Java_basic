@@ -6,4 +6,5 @@ package Demo3;
  */
 public class Fu {
     int age = 10;
+    int num = 0;
 }
